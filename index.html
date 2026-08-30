@@ -1,49 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projeto Pessoal - Bratso</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
-</head>
-
-<body>
-
-  <header class="topo">
-    <img src="assets/logo-bratso.png" alt="Logo Bratso" class="imagem-topo">
-    <nav class="menu-principal">
-      <ul>
-        <li><a onclick="mostrarTexto(event)" id="home">Início</a></li>
-        <li><a onclick="mostrarTexto(event)" id="services">Serviços</a></li>
-        <li><a onclick="mostrarTexto(event)" id="productions">Produções</a></li> 
-      </ul>
-    </nav>
-  </header>
-
-  <main id="saida">
-    <!-- Conteúdo dinâmico carregado aqui -->
-  </main>
-
-  <footer>
-    
-    <div id="lista-footer">
-      <a href="footer.html">Sobre nós</a>
-    </div>
-
-    <div class="footer-content">
-      <div class="social-links">
-        <a href="https://www.instagram.com/caiodjss/" target="_blank">Instagram</a>
-        <a href="mailto:cdj@outlook.com.br" target="_blank">Contato</a>
-      </div>
-      <p>&copy; 2025 <strong>Bratso 💚</strong></p>
-    </div>
-    <img id="balls" src="assets/balls.svg" alt="Bolinhas decorativas no canto direito inferior">
-  </footer>
-
-</body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site institucional da Bratso" />
+    <title>Bratso</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

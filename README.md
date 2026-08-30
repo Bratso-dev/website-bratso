@@ -1,23 +1,30 @@
-# Bratso - Site Institucional
+# Bratso - Frontend React
 
-Este é o repositório do site institucional da **Bratso**.
+Este projeto é a versão frontend do site institucional da **Bratso**, construída com React + Vite.
 
-🛠️ **Status**: Em desenvolvimento  
+## 🚀 Tecnologias
 
-## 📄 Sobre
+- React
+- Vite
+- CSS moderno
 
-Este projeto tem como objetivo apresentar as informações institucionais da empresa Bratso, incluindo sua missão, serviços, projetos e formas de contato.
+## ▶️ Como executar
 
-## ✨ Tecnologias utilizadas
+```bash
+npm install
+npm run dev -- --host 0.0.0.0
+```
 
-- HTML5
-- CSS3
-- JavaScript
+## 🧪 Build de produção
 
-## 📌 Em breve
+```bash
+npm run build
+```
 
-- Melhorias na responsividade
-- Backend para o formulário de contato
-- Otimizações de acessibilidade e SEO
+## 📌 Observações
+
+- O frontend está pronto para ser integrado ao backend em Laravel.
+- O formulário de contato já foi preparado no cliente e pode receber conexão futura com API.
+- A estrutura está organizada para facilitar manutenção e evolução.
 
 ---
