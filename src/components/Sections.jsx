@@ -73,6 +73,11 @@ const Products = () => (
             <div className="meta"><span className="tag">{p.category}</span><span className="status">{p.status}</span></div>
             <h3>{p.name}</h3>
             <p>{p.description}</p>
+            {p.links ? (
+              <div className="links">
+                {p.links.map((l) => <a key={l.href} href={l.href} target="_blank" rel="noreferrer">{l.label} →</a>)}
+              </div>
+            ) : null}
           </article>
         ))}
       </div>

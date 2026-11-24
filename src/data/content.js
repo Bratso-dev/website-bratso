@@ -57,7 +57,8 @@ export const products = [
     name: 'Compra Mensal',
     category: 'App mobile · Finanças',
     status: 'Em desenvolvimento',
-    image: '/assets/bratso-simbolo.png',
+    image: '/assets/compra-mensal.png',
+    links: [{ label: 'Conhecer o app', href: 'https://compra-mensal.bratso.app' }],
     description: 'Controle das compras do mês: lista, orçamento e histórico de gastos para planejar melhor o dinheiro da casa.',
   },
   {
