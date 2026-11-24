@@ -8,7 +8,6 @@ export default function SectionAbout() {
         <div className="grid-3 team-grid">
           {team.map((p) => (
             <article className="card person" key={p.name}>
-              <img src={p.image} alt={p.name} />
               <div>
                 <h3>{p.name}</h3>
                 <span className="role">{p.role}</span>
