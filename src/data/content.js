@@ -78,6 +78,20 @@ export const products = [
 
 export const projects = [
   {
+    name: 'Meu Amigo Secreto',
+    category: 'Site · Produto',
+    image: '/assets/amigo-secreto.jpg',
+    description: 'Sorteio de amigo secreto online e grátis: monta o grupo, convida pelo WhatsApp e cada um vê no celular quem tirou, com a lista de desejos. Nem quem organiza sabe os pares.',
+    links: [{ label: 'Acessar site', href: 'https://meu-amigo-secreto.com' }],
+  },
+  {
+    name: 'Olivyre',
+    category: 'E-commerce',
+    image: '/assets/olivyre.jpg',
+    description: 'Loja online de tecnologia para o Reino Unido: componentes de PC, games, impressão 3D, drones e gadgets, com checkout seguro.',
+    links: [{ label: 'Acessar loja', href: 'https://olivyre.com' }],
+  },
+  {
     name: 'Love Story',
     category: 'Site · Produto',
     image: '/assets/love-story.jpg',
