@@ -90,3 +90,5 @@ p{color:var(--muted)}
 .eyebrow::before{content:"";display:inline-block;width:18px;height:3px;border-radius:2px;background:var(--yellow);vertical-align:middle;margin-right:8px}
 @media (max-width:900px){.hero::after{width:300px;right:-80px;top:20%}}
 html,body{overflow-x:clip}
+.team-grid .person{flex-direction:column;align-items:center;text-align:center}
+.team-grid .person img{width:120px;height:120px;object-position:center top;background:var(--soft)}
