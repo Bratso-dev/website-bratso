@@ -94,12 +94,12 @@ export const projects = [
 ];
 
 export const team = [
-  { name: 'Alan Oliveira', role: 'Time Bratso', image: '/assets/alan.jpg', link: 'https://www.linkedin.com/in/alan-oliveira-3593ab194/' },
-  { name: 'Breno Gargur', role: 'Time Bratso', image: '/assets/breno.jpg', link: 'https://www.linkedin.com/in/brenogargur/' },
-  { name: 'Caio de Jesus', role: 'Backend e infraestrutura', image: '/assets/caio.png', text: 'Desenvolvedor backend em Node.js e Laravel. Cuida de APIs, integrações, autenticação e da base que sustenta os produtos.', link: 'https://www.linkedin.com/in/caiodejesus/' },
-  { name: 'Diego Paulo', role: 'Time Bratso', image: '/assets/diego.jpg', link: 'https://www.linkedin.com/in/diego-paulo-3431a1218/' },
-  { name: 'Vitor Souza', role: 'Time Bratso', image: '/assets/vitor.jpg', link: 'https://www.linkedin.com/in/vitor-santana/' },
-  { name: 'Washington Conceição', role: 'Frontend, mobile e produto', image: '/assets/washington.jpg', text: 'Engenheiro de software focado em React, React Native e TypeScript. Cuida da experiência e da visão de produto.', link: 'https://www.linkedin.com/in/washingtonldamacenac/' },
+  { name: 'Alan Oliveira', role: 'Suporte e sustentação de sistemas', image: '/assets/alan.jpg', text: 'Mais de dois anos em suporte de sistemas na Secretaria da Saúde da Bahia (SESAB). Estudante de Análise e Desenvolvimento de Sistemas, traz para a Bratso o olhar de quem mantém sistemas funcionando no dia a dia.', link: 'https://www.linkedin.com/in/alan-oliveira-3593ab194/' },
+  { name: 'Breno Gargur', role: 'Negócios, RevOps e CRM', image: '/assets/breno.jpg', text: 'Revenue Operations Analyst na nstech, com passagem como CRM Analyst na Sanar. Une análise de dados, planejamento estratégico e processos comerciais para conectar os produtos da Bratso às necessidades do negócio.', link: 'https://www.linkedin.com/in/brenogargur/' },
+  { name: 'Caio de Jesus', role: 'Backend, APIs e integrações', image: '/assets/caio.jpg', text: 'Developer Support Analyst e estudante de Computação na UFBA. Trabalha com Node.js, NestJS, TypeScript, Laravel, PostgreSQL e Docker, cuidando de APIs, integrações e da investigação de problemas.', link: 'https://www.linkedin.com/in/caiodejesus/' },
+  { name: 'Diego Paulo', role: 'Qualidade e automação de processos', image: '/assets/diego.jpg', text: 'Analista de Qualidade e Automação com Python e Selenium. Desenvolveu automações web para consulta e acompanhamento de processos jurídicos, eliminando tarefas manuais e reduzindo erros.', link: 'https://www.linkedin.com/in/diego-paulo-3431a1218/' },
+  { name: 'Vitor Santana', role: 'Qualidade de software (QA)', image: '/assets/vitor.jpg', text: 'QA Lead na Sofist, com 10 anos de experiência em automação de testes web, API e mobile (Playwright, Cypress, Selenium, Appium). Formado em Análise e Desenvolvimento de Sistemas pelo IFBA.', link: 'https://www.linkedin.com/in/vitor-santana/' },
+  { name: 'Washington Conceição', role: 'Frontend, mobile e produto', image: '/assets/washington.jpg', text: 'Software Engineer na Sanar, onde desenvolve o SanarFlix, plataforma de educação médica com mais de 100 mil downloads. Especialista em React Native, React, Node.js e TypeScript, com foco em performance e produto.', link: 'https://www.linkedin.com/in/washingtonldamacenac/' },
 ];
 
 export const contactEmail = 'bratsotec@gmail.com';
