@@ -92,3 +92,4 @@ p{color:var(--muted)}
 html,body{overflow-x:clip}
 .team-grid .person{flex-direction:column;align-items:center;text-align:center}
 .team-grid .person img{width:120px;height:120px;object-position:center top;background:var(--soft)}
+.contact-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}

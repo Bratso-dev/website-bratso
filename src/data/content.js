@@ -116,3 +116,5 @@ export const team = [
 ];
 
 export const contactEmail = 'bratsotec@gmail.com';
+
+export const whatsappUrl = `https://wa.me/5571981040179?text=${encodeURIComponent('Olá, Bratso! Vim pelo site e gostaria de conversar sobre um projeto.')}`;

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { contactEmail } from '../data/content';
+import { contactEmail, whatsappUrl } from '../data/content';
 
 export default function SectionContact() {
   const [f, setF] = useState({ nome: '', email: '', mensagem: '' });
@@ -17,7 +17,10 @@ export default function SectionContact() {
           <span className="eyebrow">Contato</span>
           <h2>Tem uma ideia? Vamos conversar.</h2>
           <p>Conte o que você precisa e respondemos com os próximos passos.</p>
-          <p><a href={`mailto:${contactEmail}`}>{contactEmail}</a></p>
+          <div className="contact-links">
+            <a href={whatsappUrl} target="_blank" rel="noreferrer" className="btn btn-primary">Chamar no WhatsApp</a>
+            <a href={`mailto:${contactEmail}`} className="btn btn-ghost">{contactEmail}</a>
+          </div>
         </div>
         <form className="card form" onSubmit={submit}>
           <label>Nome<input name="nome" value={f.nome} onChange={change} required /></label>
