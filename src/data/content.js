@@ -68,16 +68,17 @@ export const products = [
     image: '/assets/bratso-simbolo.png',
     description: 'Gestão de clientes e vendas simples para pequenos negócios: contatos, funil e acompanhamento de oportunidades.',
   },
-];
-
-export const projects = [
   {
     name: 'É o Baba',
     category: 'App · Esporte',
+    status: 'Em desenvolvimento',
     image: '/assets/eobaba.jpg',
     description: 'O app da resenha: organiza o futebol da galera com lista de presença, sorteio de times, placar e estatísticas dos jogadores.',
     links: [{ label: 'Acessar app', href: 'https://eobaba.bratso.app' }],
   },
+];
+
+export const projects = [
   {
     name: 'Meu Amigo Secreto',
     category: 'Site · Produto',
