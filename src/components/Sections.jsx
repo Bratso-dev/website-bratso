@@ -19,8 +19,8 @@ const WhoWeAre = () => (
     <div className="container split">
       <div>
         <span className="eyebrow">Quem somos</span>
-        <h2>Um time pequeno, com cabeça de produto.</h2>
-        <p>A Bratso nasceu em 2025 da parceria entre dois desenvolvedores que gostam de construir coisas úteis. Juntamos frontend, mobile, backend e visão de produto para entregar software completo, do protótipo ao lançamento.</p>
+        <h2>Um time de seis, com cabeça de produto.</h2>
+        <p>A Bratso nasceu em 2025 e hoje somos seis pessoas que gostam de construir coisas úteis. Juntamos frontend, mobile, backend e visão de produto para entregar software completo, do protótipo ao lançamento.</p>
         <p>Trabalhamos para clientes e também lançamos nossos próprios produtos, e é isso que nos faz pensar como dono quando o projeto é seu.</p>
       </div>
       <div className="values">
