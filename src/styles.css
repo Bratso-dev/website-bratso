@@ -94,3 +94,4 @@ html,body{overflow-x:clip}
 .team-grid .person img{width:120px;height:120px;object-position:center top;background:var(--soft)}
 .contact-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
 .thumb img{object-position:center top}
+.btn-primary{background-origin:border-box;border-color:transparent;box-shadow:0 8px 20px rgba(24,99,214,.22)}
