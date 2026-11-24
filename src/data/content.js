@@ -54,13 +54,6 @@ export const steps = [
 
 export const products = [
   {
-    name: 'É o Baba',
-    category: 'App mobile',
-    status: 'Em desenvolvimento',
-    image: '/assets/logo-babaeuropeu-app.jfif',
-    description: 'O app da resenha: organiza o futebol da galera com lista de presença, sorteio de times, placar e estatísticas dos jogadores.',
-  },
-  {
     name: 'Compra Mensal',
     category: 'App mobile · Finanças',
     status: 'Em desenvolvimento',
@@ -78,6 +71,13 @@ export const products = [
 
 export const projects = [
   {
+    name: 'É o Baba',
+    category: 'App · Esporte',
+    image: '/assets/eobaba.jpg',
+    description: 'O app da resenha: organiza o futebol da galera com lista de presença, sorteio de times, placar e estatísticas dos jogadores.',
+    links: [{ label: 'Acessar app', href: 'https://eobaba.bratso.app' }],
+  },
+  {
     name: 'Meu Amigo Secreto',
     category: 'Site · Produto',
     image: '/assets/amigo-secreto.jpg',
@@ -90,33 +90,6 @@ export const projects = [
     image: '/assets/olivyre.jpg',
     description: 'Loja online de tecnologia para o Reino Unido: componentes de PC, games, impressão 3D, drones e gadgets, com checkout seguro.',
     links: [{ label: 'Acessar loja', href: 'https://olivyre.com' }],
-  },
-  {
-    name: 'Love Story',
-    category: 'Site · Produto',
-    image: '/assets/love-story.jpg',
-    description: 'Plataforma para casais criarem uma página com a história do relacionamento, com identidade visual refinada.',
-    links: [{ label: 'Acessar site', href: 'https://www.sitelovestory.com' }],
-  },
-  {
-    name: 'Lofi Radio',
-    category: 'Web · Streaming',
-    image: '/assets/lofi-radio-site.jpg',
-    description: 'Rádio online de música lo-fi com várias estações e API pública própria.',
-    links: [
-      { label: 'Acessar', href: 'https://lofi-frontend-production.up.railway.app/api/stations' },
-      { label: 'GitHub', href: 'https://github.com/caiodjss/lofi-radio-site' },
-    ],
-  },
-  {
-    name: 'Baba Europeu',
-    category: 'Site · Marca',
-    image: '/assets/baba-europeu.png',
-    description: 'Presença digital para o Baba Europeu, uma marca com identidade forte, humor e comunidade.',
-    links: [
-      { label: 'Acessar site', href: 'https://caiodjss.github.io/babaeuropeu/src/pages/home.html' },
-      { label: 'GitHub', href: 'https://github.com/caiodjss/babaeuropeu' },
-    ],
   },
 ];
 
