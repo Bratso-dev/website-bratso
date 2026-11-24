@@ -107,12 +107,12 @@ export const projects = [
 ];
 
 export const team = [
-  { name: 'Washington Conceição', role: 'Frontend, mobile e produto', image: '/assets/washington.jpg', text: 'Engenheiro de software focado em React, React Native e TypeScript. Cuida da experiência e da visão de produto.', link: 'https://www.linkedin.com/in/washingtonldamacenac/' },
+  { name: 'Alan Oliveira', role: 'Time Bratso', image: '/assets/alan.jpg', link: 'https://www.linkedin.com/in/alan-oliveira-3593ab194/' },
+  { name: 'Breno Gargur', role: 'Time Bratso', image: '/assets/breno.jpg', link: 'https://www.linkedin.com/in/brenogargur/' },
   { name: 'Caio de Jesus', role: 'Backend e infraestrutura', image: '/assets/caio.png', text: 'Desenvolvedor backend em Node.js e Laravel. Cuida de APIs, integrações, autenticação e da base que sustenta os produtos.', link: 'https://www.linkedin.com/in/caiodejesus/' },
   { name: 'Diego Paulo', role: 'Time Bratso', image: '/assets/diego.jpg', link: 'https://www.linkedin.com/in/diego-paulo-3431a1218/' },
-  { name: 'Breno Gargur', role: 'Time Bratso', image: '/assets/breno.jpg', link: 'https://www.linkedin.com/in/brenogargur/' },
   { name: 'Vitor Souza', role: 'Time Bratso', image: '/assets/vitor.jpg', link: 'https://www.linkedin.com/in/vitor-santana/' },
-  { name: 'Alan Oliveira', role: 'Time Bratso', image: '/assets/alan.jpg', link: 'https://www.linkedin.com/in/alan-oliveira-3593ab194/' },
+  { name: 'Washington Conceição', role: 'Frontend, mobile e produto', image: '/assets/washington.jpg', text: 'Engenheiro de software focado em React, React Native e TypeScript. Cuida da experiência e da visão de produto.', link: 'https://www.linkedin.com/in/washingtonldamacenac/' },
 ];
 
 export const contactEmail = 'bratsotec@gmail.com';
